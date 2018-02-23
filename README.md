@@ -8,3 +8,7 @@ So far it can produce a UML Class Diagram from a single module.
 If you use VS Code and install yUML extension you'll be able to preview the class diagram.
 
 See https://yuml.me/ for more information on yUML format.
+
+## Testing
+
+`python -m pytest`
