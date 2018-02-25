@@ -1,0 +1,13 @@
+// {type:class}
+[Vertibrate]<-[Amphibian]
+[Animal]
+[Invertibrate]<-[Arthropod]
+[Vertibrate]<-[Bird]
+[Crustacean]<-[Crab]
+[Arthropod]<-[Crustacean]
+[Vertibrate]<-[Fish]
+[Arthropod]<-[Insect]
+[Animal]<-[Invertibrate]
+[Vertibrate]<-[Mammal]
+[Vertibrate]<-[Reptile]
+[Animal]<-[Vertibrate]

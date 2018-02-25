@@ -46,13 +46,12 @@ class Bird(Vertibrate):
         self.blood = 'Warm-blooded'
         self.lays_eggs = True
 
-class Mammal(Animal):
+class Mammal(Vertibrate):
     """Mammal subclass of Vertibrate."""
     def __init__(self, genus, species):
-        Animal.__init__(self, genus, species)
+        Vertibrate.__init__(self, genus, species)
         self.body_cover = 'Hair or Fur'
         self.blood = 'Warm-blooded'
-        self.backbone = True
 
 class Arthropod(Invertibrate):
     def __init__(self, genus, species):
